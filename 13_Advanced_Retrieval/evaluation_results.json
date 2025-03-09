@@ -1,0 +1,32 @@
+{
+  "naive_retrieval": {
+    "cost": 3.029535,
+    "latency": "212.18 seconds",
+    "performance": "{'context_recall': 0.8833, 'faithfulness': 0.8378, 'factual_correctness': 0.4130, 'answer_relevancy': 0.9506, 'context_entity_recall': 0.6167, 'noise_sensitivity_relevant': 0.0000}"
+  },
+  "bm25_retrieval": {
+    "cost": 2.020255,
+    "latency": "210.89 seconds",
+    "performance": "{'context_recall': 0.7000, 'faithfulness': 0.6192, 'factual_correctness': 0.3460, 'answer_relevancy': 0.7704, 'context_entity_recall': 0.5750, 'noise_sensitivity_relevant': 0.3177}"
+  },
+  "contextual_compression_retrieval": {
+    "cost": 1.94889,
+    "latency": "219.19 seconds",
+    "performance": "{'context_recall': 0.7667, 'faithfulness': 0.7741, 'factual_correctness': 0.3790, 'answer_relevancy': 0.8640, 'context_entity_recall': 0.5917, 'noise_sensitivity_relevant': 0.3763}"
+  },
+  "multi_query_retrieval": {
+    "cost": 3.1325700000000003,
+    "latency": "225.24 seconds",
+    "performance": "{'context_recall': 0.8833, 'faithfulness': 0.7655, 'factual_correctness': 0.4520, 'answer_relevancy': 0.9584, 'context_entity_recall': 0.5833, 'noise_sensitivity_relevant': 0.3333}"
+  },
+  "parent_document_retrieval": {
+    "cost": 1.8460800000000002,
+    "latency": "219.88 seconds",
+    "performance": "{'context_recall': 0.7167, 'faithfulness': 0.6084, 'factual_correctness': 0.3800, 'answer_relevancy': 0.8671, 'context_entity_recall': 0.5333, 'noise_sensitivity_relevant': 0.2346}"
+  },
+  "ensemble_retrieval": {
+    "cost": 3.4804250000000003,
+    "latency": "230.07 seconds",
+    "performance": "{'context_recall': 0.8500, 'faithfulness': 0.8310, 'factual_correctness': 0.4070, 'answer_relevancy': 0.8622, 'context_entity_recall': 0.5833, 'noise_sensitivity_relevant': nan}"
+  }
+}
